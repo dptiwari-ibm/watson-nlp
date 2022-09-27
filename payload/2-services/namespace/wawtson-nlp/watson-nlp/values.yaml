@@ -1,0 +1,15 @@
+"test":
+  "componentName": "watson-nlp"
+  "imagePullSecrets":
+  - "artifactory-key"
+  "models":
+  - "image": "watson-nlp_syntax_izumo_lang_en_stock:0.0.4"
+    "registry": "artifactory"
+  "registries":
+  - "name": "artifactory"
+    "url": "wcp-ai-foundation-team-docker-virtual.artifactory.swg-devops.com"
+  "runtime":
+    "image": "watson-nlp-runtime:0.17.0_ubi8_py39"
+    "registry": "artifactory"
+  "serviceType": "ClusterIP"
+
