@@ -1,0 +1,5 @@
+"ubi-helm":
+  "image.repository": "registry.access.redhat.com/ubi8/ubi"
+  "image.tag": "latest"
+  "replicaCount": 1
+
