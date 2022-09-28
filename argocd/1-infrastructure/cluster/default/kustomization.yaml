@@ -3,5 +3,4 @@ kind: Kustomization
 resources:
   - base/namespace-watson-nlp.yaml
   - base/namespace-wawtson-nlp.yaml
-  - base/watson-nlp-artifactory-key.yaml
   - base/wawtson-nlp-artifactory-key.yaml
